@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02/2 - Tablas en HTML</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Año de publicación"</th>
+                <th>Enlace a Amazon</th>
+            </tr>
+            <tr>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>1949</td>
+                <td><a href="https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934">Enlace a Amazon</a></td>
+            </tr>
+            <tr>
+                <td>El gran Gatsby</td>
+                <td>F. Scott Fitzgerald</td>
+                <td>1925</td>
+                <td><a href="https://www.amazon.com/Great-Gatsby-F-Scott-Fitzgerald/dp/0743273567">Enlace a Amazon</a></td>
+            </tr>
+            <tr>
+                <td>Cien años de soledad</td>
+                <td>Gabriel García Márquez</td>
+                <td>1967</td>
+                <td><a href="https://www.amazon.com/Cien-a%C3%B1os-soledad-Spanish/dp/0307474720">Enlace a Amazon</a></td>
+            </tr>
+        </table>
+    </body>
+</html>
