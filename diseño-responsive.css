@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+  
+  .section1 {
+    flex-basis: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .section1 .item {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .section2 {
+    
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 640px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .section1 {
+      flex-basis: auto;
+      order: 2;
+    }
+  
+    .section2 {
+      order: 1;
+    }
+  }
